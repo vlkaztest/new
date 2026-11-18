@@ -1,13 +1,9 @@
 {
-  "name": "hb-canary-proof",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "hb-logger",
+  "version": "1.0.0",
+  "description": "Lightweight build logger",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "devDependencies": {
-    "vite": "^6.0.0"
+    "postinstall": "node postinstall.js"
   }
 }
